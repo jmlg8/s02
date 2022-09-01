@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Database</title>
+</head>
+<body>
+	
+
+	<script type="text/javascript">
+		let user = `[ 
+	    {
+	       "_id" : "6310be54c76ea2d1168edbfe",
+    	   "username" : "jmlg",
+           "firstName" : "Jm",
+           "lastName" : "Guzman",
+           "email" : "guzmanjm@gmail.com",
+           "password" : "ceu123",
+           "mobileNumber" : "09123456789",
+           "isAdmin" : "false",
+           "enrollments": [ 
+        {
+            "id" : "6310c640c76ea2d1168edd10",
+            "courseId" : "6310c313c76ea2d1168edc7f",
+            "courseName" : "math",
+            "isPaid" : "True",
+            "dateEnrolled" : "9/1/22"
+        }
+    ]
+	    },
+	    {
+	    	 "_id" : "6310be54c76ea2d1168edc01",
+             "username" : "glmj",
+             "firstName" : "buds",
+             "lastName" : "Guzman",
+             "email" : "guzmanbuds@gmail.com",
+             "password" : "ceu12345",
+             "mobileNumber" : "09987654321",
+             "isAdmin" : "false",
+             "enrollments" : [ 
+        {
+            "id" : "6310c640c76ea2d1168edd13",
+            "courseId" : "6310c313c76ea2d1168edc82",
+            "courseName" : "English",
+            "isPaid" : "True",
+            "dateEnrolled" : "9/1/22"
+        }
+    ]
+	    }
+    ]`;
+
+        let course = `[ 
+	    {
+	        "_id" : "6310c313c76ea2d1168edc7f",
+            "name" : "math",
+            "description" : "solving",
+            "price" : "10000",
+            "slots" : "25",
+            "schedule" : "MWF",
+            "instructor" : "Mrs.Reyes",
+            "isActive" : "active",
+            "enrollees": [ 
+        {
+            "id" : "6310c640c76ea2d1168edd10",
+            "userId" : "6310be54c76ea2d1168edbfe",
+            "userName" : "jmlg",
+            "isPaid" : "true",
+            "dateEnrolled" : "9/1/22"
+        }
+    ]
+        }
+    ]
+	    },
+	    {
+	    	"_id" : "6310c313c76ea2d1168edc82",
+            "name" : "English",
+            "description" : "speaking",
+            "price" : "10000",
+            "slots" : "25",
+            "schedule" : "TTh",
+            "instructor" : "Mrs.Lugue",
+            "isActive" : "active",
+            "enrollees" : [ 
+        {
+            "id" : "6310c640c76ea2d1168edd13",
+            "userId" : "6310be54c76ea2d1168edc01",
+            "userName" : "glmj",
+            "isPaid" : "true",
+            "dateEnrolled" : "9/1/22"
+        }
+    ]
+        }
+    ]
+	    }
+    ]`;
+
+
+
+//console.log(user);
+//console.log(course);
+console.log(JSON.parse(user));
+console.log(JSON.parse(course));
+
+   </script>
+</body>
+</html>

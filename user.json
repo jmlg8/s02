@@ -1,0 +1,41 @@
+/* 1 */
+{
+    "_id" : "6310be54c76ea2d1168edbfe",
+    "username" : "jmlg",
+    "firstName" : "Jm",
+    "lastName" : "Guzman",
+    "email" : "guzmanjm@gmail.com",
+    "password" : "ceu123",
+    "mobileNumber" : "09123456789",
+    "isAdmin" : "false",
+    "enrollments" : [ 
+        {
+            "id" : "6310c640c76ea2d1168edd10",
+            "courseId" : "6310c313c76ea2d1168edc7f",
+            "courseName" : "math",
+            "isPaid" : "True",
+            "dateEnrolled" : "9/1/22"
+        }
+    ]
+}
+
+/* 2 */
+{
+    "_id" : "6310be54c76ea2d1168edc01",
+    "username" : "glmj",
+    "firstName" : "buds",
+    "lastName" : "Guzman",
+    "email" : "guzmanbuds@gmail.com",
+    "password" : "ceu12345",
+    "mobileNumber" : "09987654321",
+    "isAdmin" : "false",
+    "enrollments" : [ 
+        {
+            "id" : "6310c640c76ea2d1168edd13",
+            "courseId" : "6310c313c76ea2d1168edc82",
+            "courseName" : "English",
+            "isPaid" : "True",
+            "dateEnrolled" : "9/1/22"
+        }
+    ]
+}

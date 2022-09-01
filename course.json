@@ -1,0 +1,40 @@
+/* 1 */
+{
+    "_id" : "6310c313c76ea2d1168edc7f",
+    "name" : "math",
+    "description" : "solving",
+    "price" : "10000",
+    "slots" : "25",
+    "schedule" : "MWF",
+    "instructor" : "Mrs.Reyes",
+    "isActive" : "active",
+    "enrollees" : [ 
+        {
+            "id" : "6310c640c76ea2d1168edd10",
+            "userId" : "6310be54c76ea2d1168edbfe",
+            "userName" : "jmlg",
+            "isPaid" : "true",
+            "dateEnrolled" : "9/1/22"
+        }
+    ]
+}
+
+/* 2 */
+{
+    "_id" : "6310c313c76ea2d1168edc82",
+    "name" : "English",
+    "description" : "speaking",
+    "price" : "10000",
+    "slots" : "25",
+    "schedule" : "TTh",
+    "instructor" : "Mrs.Lugue",
+    "isActive" : "active",
+    "enrollees" : [ 
+        {
+            "id" : "6310c640c76ea2d1168edd13",
+            "userId" : "6310be54c76ea2d1168edc01",
+            "userName" : "glmj",
+            "isPaid" : "true",
+            "dateEnrolled" : "9/1/22"
+        }
+    ]
